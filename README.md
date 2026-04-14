@@ -2,9 +2,9 @@
 
 ## What This Is
 
-A ship-first, physics-governed engineering platform for taking a vessel from frozen basis to integrated ship closure across the full MIT ship spiral. The platform implements fifteen engineering dimensions (D0–D14) spanning authority and requirements, margins and service doctrine, energy and plant architecture, propulsion and physical embodiment, weights and stability, dynamics and modifiers, operations and economics, and synthesis and comparison. Six cross-cutting platform services govern all dimensions.
+Ship-first engineering platform. Fifteen dimensions spanning the full MIT ship spiral — frozen authority basis through hull geometry, propulsion architecture, structural closure, and economic synthesis. Six cross-cutting governance services bind every dimension to one vessel truth.
 
-The commercial model centres on vessel-design outputs — design packages, vessel reports, geometry files, authority packs — rather than platform code distribution. The platform itself is internal and private. This repository explains the architecture, not the implementation.
+Commercial object: vessel-design outputs. Design packages, authority packs, geometry files, reproducible result sets. Platform code is internal and private. This repository explains the architecture, not the implementation.
 
 Part of the [Zer0pa](https://github.com/Zer0pa) family. Vessel showcase: [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098).
 
@@ -12,60 +12,65 @@ Part of the [Zer0pa](https://github.com/Zer0pa) family. Vessel showcase: [Zero-C
 
 | Metric | Value | Baseline |
 |--------|-------|----------|
-| DIMENSIONS | 15 | Full MIT ship spiral (D0–D14) |
-| CROSS_SERVICES | 6 | Platform-wide governance |
-| VESSEL_OUTPUTS | 5 | Per-spiral closure categories |
-| SOURCE_MODULES | 94+ | Python + Rust |
+| DIMENSIONS | 15 | D0–D14 |
+| CROSS-CUTTING | 6 | services |
+| SOURCE_MODULES | 94+ | Python+Rust |
+| VESSEL_OUTPUTS | 5 | per-spiral |
 
-> Source: `workstreams/ws-arch/architecture/ARCH-001-zeroship-end-to-end-architecture.md` | `src/zeropa_ship/` module inventory
+> Source: `ARCH-001-zeroship-end-to-end-architecture.md` | `src/zeropa_ship/` module inventory
 
 ## What We Prove
 
-- Fifteen engineering dimensions map to and extend the MIT ship spiral, covering every stage from authority and basis through to synthesis and comparison.
-- Six cross-cutting services (basis control, runtime admission, OEM intake, dependency tracking, proof/residual handling, publication) operate across all dimensions.
-- The platform produces five output categories per spiral closure: lawful ship baseline, challenger comparisons, class/route/economics artifacts, governed evidence estate, and reusable platform corpus.
-- The same-basis comparison engine enables honest evaluation of design challengers on one frozen vessel basis and consistent loading/route logic.
-- OEM, bounded-surrogate, and custom component data enter through a single governed intake layer with explicit truth-class labeling.
+- Fifteen-dimension coverage of full MIT ship spiral, D0 authority through D14 synthesis
+- Six cross-cutting services: basis control, runtime admission, OEM intake, dependency tracking, proof handling, publication
+- Five output categories per spiral closure: lawful baseline, challenger comparisons, class/route/economics, governed evidence estate, reusable platform corpus
+- Same-basis comparison engine — honest challenger evaluation on one frozen vessel truth
+- Governed OEM intake with explicit truth-class labeling across vendor, surrogate, and custom data
 
-> Source: `workstreams/ws-arch/architecture/ARCH-001-zeroship-end-to-end-architecture.md` — sections 1–5, 21–22
+> Source: `ARCH-001` sections 1–5, 21–22
 
 ## What We Don't Claim
 
-- No claim of production fleet deployment — the platform is in active development.
-- No claim of class-society approval for any vessel designed through the platform.
-- No claim that the platform is available as a software product, SaaS, or hosted service.
-- No claim of open-source status — all rights are reserved unless expressly granted.
-- No claim that third-party tool licences (NavalToolbox, gmsh, OpenFOAM) are granted through this repository.
-- No claim that all fifteen dimensions have reached full computational closure for any single vessel.
+- No production fleet deployment — active development
+- No class-society approval for any platform-designed vessel
+- No software product, SaaS, or hosted service
+- No open-source status — all rights reserved unless expressly granted
+- No third-party tool licence pass-through (NavalToolbox, gmsh, OpenFOAM)
+- No full computational closure across all fifteen dimensions for any single vessel
 
 ## Commercial Readiness
 
 | Field | Value |
 |-------|-------|
 | Verdict | PLATFORM_INTERNAL |
-| Surface | Public showcase — architecture and concept |
-| Code | Not published |
-| Model | Output-only — design packages, not software |
-| Engagement | hello@zer0pa.com |
+| Commit SHA | c124217 |
+| Confidence | — |
+| Source | DEVELOPMENT-STATUS.md |
 
-> Evaluators: This is a concept and architecture surface. For deeper technical engagement, contact directly.
+> Public showcase — architecture and concept surface. Deeper engagement: hello@zer0pa.com
 
 ## Tests and Verification
 
-The private Zer0paShip repository contains test suites covering hull generation, CFD batch execution, displacement closure, stability validation, authority case materialization, and governed runtime checks. Test harnesses span Python (pytest) and Rust compilation. Phase-specific regression suites validate authority metrics across spiral iterations.
+| Code | Check | Verdict |
+|------|-------|---------|
+| T_HULL | Hull generation, parametric geometry | PRIVATE |
+| T_CFD | CFD batch execution, resistance computation | PRIVATE |
+| T_STAB | Displacement closure, stability validation | PRIVATE |
+| T_AUTH | Authority materialization, phase regression | PRIVATE |
+| T_RUST | Rust compilation, runtime binding | PRIVATE |
+| T_GOV | Governed runtime admission checks | PRIVATE |
 
-Test code and results remain in the private repository. Selected authority metrics and computed results are published through the vessel showcase repository.
+> Test suites span Python (pytest) and Rust. Code and results remain in the private repository.
 
 ## Proof Anchors
 
-| Artifact | Path (private repo) |
-|----------|---------------------|
-| Phase 13.2 authority pack | `output/ship/phase13.2-ship-truth-ascent/` |
-| Phase 13.1 engineering truth | `output/ship/phase13.1-harsher-engineering-truth/` |
-| Phase 4 vessel closure | `output/ship/phase4-vessel-closure-current-canonical/` |
-| Phase 12.1 lawful lead | `output/ship/phase12.1-lawful-lead-authority-pack/` |
-| Science-engineering pack | `output/ship/phase13.2-science-engineering-authority-pack/` |
-| VPC-2.0 frozen spec | `docs/VPC-2.0-spec.md` |
+| Path | State |
+|------|-------|
+| `output/ship/phase13.2-ship-truth-ascent/` | VERIFIED |
+| `output/ship/phase4-vessel-closure-current-canonical/` | VERIFIED |
+| `output/ship/phase12.1-lawful-lead-authority-pack/` | VERIFIED |
+| `output/ship/phase13.2-science-engineering-authority-pack/` | VERIFIED |
+| `docs/VPC-2.0-spec.md` | VERIFIED |
 
 ## Repo Shape
 
@@ -87,34 +92,29 @@ Test code and results remain in the private repository. Selected authority metri
 
 ## Ecosystem
 
-ZeroShip is the platform layer behind the Zer0pa domain codec family:
-
-| Repo | Domain |
-|------|--------|
-| ZPE-IMC | Multi-modal integration (platform core) |
-| ZPE-Bio | Biosignal |
-| ZPE-FT | Financial time-series |
-| ZPE-Geo | Geospatial |
-| ZPE-IoT | IoT sensor streams |
-| ZPE-Ink | Structured document |
-| ZPE-Mocap | Motion capture |
-| ZPE-Neuro | Neuroscience |
-| ZPE-Prosody | Speech prosody |
-| ZPE-Robotics | Robotics telemetry |
-| ZPE-XR | Extended reality |
-
-Vessel concept showcase: [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098)
+- [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098) — Lead vessel concept showcase
+- [ZPE-IMC](https://github.com/Zer0pa/ZPE-IMC) — Multi-modal integration codec (platform core)
+- [ZPE-Bio](https://github.com/Zer0pa/ZPE-Bio) — Biosignal domain codec
+- [ZPE-FT](https://github.com/Zer0pa/ZPE-FT) — Financial time-series codec
+- [ZPE-Geo](https://github.com/Zer0pa/ZPE-Geo) — Geospatial codec
+- [ZPE-Robotics](https://github.com/Zer0pa/ZPE-Robotics) — Robotics telemetry codec
+- [ZPE-Neuro](https://github.com/Zer0pa/ZPE-Neuro) — Neuroscience codec
+- [ZPE-IoT](https://github.com/Zer0pa/ZPE-IoT) — IoT sensor codec
+- [ZPE-Ink](https://github.com/Zer0pa/ZPE-Ink) — Structured document codec
+- [ZPE-Mocap](https://github.com/Zer0pa/ZPE-Mocap) — Motion capture codec
+- [ZPE-Prosody](https://github.com/Zer0pa/ZPE-Prosody) — Speech prosody codec
+- [ZPE-XR](https://github.com/Zer0pa/ZPE-XR) — Extended reality codec
 
 ## Quick Start
 
-This is a showcase repository — there is no code to run.
-
-- **Platform architecture:** start with [SYSTEM-ARCHITECTURE.md](SYSTEM-ARCHITECTURE.md)
-- **Dimension reference:** see [PLATFORM-DIMENSIONS.md](PLATFORM-DIMENSIONS.md)
-- **Cross-cutting services:** see [CROSS-CUTTING-SERVICES.md](CROSS-CUTTING-SERVICES.md)
-- **Commercial model:** see [COMMERCIAL-MODEL.md](COMMERCIAL-MODEL.md)
-- **Current status:** see [DEVELOPMENT-STATUS.md](DEVELOPMENT-STATUS.md)
-- **Vessel showcase:** see [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098)
+```bash
+# Showcase repository — no code to run
+git clone https://github.com/Zer0pa/ZeroShip.git
+# Architecture: SYSTEM-ARCHITECTURE.md
+# Dimensions: PLATFORM-DIMENSIONS.md
+# Services: CROSS-CUTTING-SERVICES.md
+# Vessel: https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098
+```
 
 ---
 
