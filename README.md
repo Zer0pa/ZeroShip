@@ -3,14 +3,15 @@
 ## What This Is
 
 ZeroShip is the public architecture and evidence surface for the ship-design
-engineering platform behind the Zer0pa vessel programme. It shows how the
-design machine is structured, how public status is reported, and where the
+engineering system behind the current Zer0pa vessel programme. It shows how
+the design machine is structured, how public status is reported, and where the
 current boundary sits without publishing internal code, partner data, or
 runtime access.
 
-This repo is useful now for following platform progress, diligence posture,
-and weekly state changes. Ship-truth promotion still happens only through the
-governed vessel lane and is surfaced separately in the sibling vessel repo.
+This repo is useful now and improves continuously as the engineering system,
+its evidence packet, and its public boundary get sharper. Ship-truth promotion
+still happens only through the governed vessel lane and is surfaced separately
+in the sibling vessel repo.
 
 | Field | Value |
 |-------|-------|
