@@ -2,120 +2,89 @@
 
 ## What This Is
 
-Ship-first engineering platform. Fifteen dimensions spanning the full MIT ship spiral — frozen authority basis through hull geometry, propulsion architecture, structural closure, and economic synthesis. Six cross-cutting governance services bind every dimension to one vessel truth.
+ZeroShip is the public architecture and evidence surface for the ship-design
+engineering platform behind the Zer0pa vessel programme. It shows how the
+design machine is structured, how public status is reported, and where the
+current boundary sits without publishing internal code, partner data, or
+runtime access.
 
-Commercial object: vessel-design outputs. Design packages, authority packs, geometry files, reproducible result sets. Platform code is internal and private. This repository explains the architecture, not the implementation.
+This repo is useful now for following platform progress, diligence posture,
+and weekly state changes. Ship-truth promotion still happens only through the
+governed vessel lane and is surfaced separately in the sibling vessel repo.
 
-Part of the [Zer0pa](https://github.com/Zer0pa) family. Vessel showcase: [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098).
+| Field | Value |
+|-------|-------|
+| Architecture | SHIP_SYSTEM_STREAM |
+| Encoding | PUBLIC_EVIDENCE_SURFACE_V1 |
 
 ## Key Metrics
 
 | Metric | Value | Baseline |
 |--------|-------|----------|
-| DIMENSIONS | 15 | D0–D14 |
-| CROSS-CUTTING | 6 | services |
-| SOURCE_MODULES | 94+ | Python+Rust |
-| VESSEL_OUTPUTS | 5 | per-spiral |
+| DIMENSIONS | 15 | D0-D14 |
+| CROSS_CUTTING | 6 | services |
+| CANDIDATE_CASES | 7 | registry |
+| RUNTIME_ROLES | 3 | substrates |
 
-> Source: `ARCH-001-zeroship-end-to-end-architecture.md` | `src/zeropa_ship/` module inventory
+> Source: `proofs/artifacts/2026-04-19-showcase-refresh/platform_snapshot.json`
 
 ## What We Prove
 
-- Fifteen-dimension coverage of full MIT ship spiral, D0 authority through D14 synthesis
-- Six cross-cutting services: basis control, runtime admission, OEM intake, dependency tracking, proof handling, publication
-- Five output categories per spiral closure: lawful baseline, challenger comparisons, class/route/economics, governed evidence estate, reusable platform corpus
-- Same-basis comparison engine — honest challenger evaluation on one frozen vessel truth
-- Governed OEM intake with explicit truth-class labeling across vendor, surrogate, and custom data
-
-> Source: `ARCH-001` sections 1–5, 21–22
+- ZeroShip exposes one stable public architecture chain: `SourceEstate -> RuntimeAdmission -> CaseState -> ExecutionStateMachine -> Observability -> FastLaneAdmission -> ResumeController`
+- Platform work is separated from ship truth by explicit public boundary rules
+- The current public state is a controlled pause-and-convergence surface, not an abandonment surface
+- Weekly public updates can move the platform surface forward without leaking private code or partner data
 
 ## What We Don't Claim
 
-- No production fleet deployment — active development
-- No class-society approval for any platform-designed vessel
-- No software product, SaaS, or hosted service
-- No open-source status — all rights reserved unless expressly granted
-- No third-party tool licence pass-through (NavalToolbox, gmsh, OpenFOAM)
-- No full computational closure across all fifteen dimensions for any single vessel
+- No public source-code release for the ZeroShip implementation
+- No ship-truth promotion from platform work alone
+- No public OEM, vendor, or third-party solver data
+- No authorized premium-runtime relaunch while the current pause packet keeps that route blocked
+- No hosted SaaS or operator runtime access from this repo
 
 ## Commercial Readiness
 
 | Field | Value |
 |-------|-------|
-| Verdict | PLATFORM_INTERNAL |
-| Commit SHA | c124217 |
-| Confidence | — |
-| Source | DEVELOPMENT-STATUS.md |
-
-> Public showcase — architecture and concept surface. Deeper engagement: hello@zer0pa.com
+| Verdict | PARTIAL |
+| Commit SHA | aec2256 |
+| Confidence | 84% |
+| Source | proofs/manifests/CURRENT_PUBLIC_STATUS_PACKET.md |
 
 ## Tests and Verification
 
 | Code | Check | Verdict |
 |------|-------|---------|
-| T_HULL | Hull generation, parametric geometry | PRIVATE |
-| T_CFD | CFD batch execution, resistance computation | PRIVATE |
-| T_STAB | Displacement closure, stability validation | PRIVATE |
-| T_AUTH | Authority materialization, phase regression | PRIVATE |
-| T_RUST | Rust compilation, runtime binding | PRIVATE |
-| T_GOV | Governed runtime admission checks | PRIVATE |
-
-> Test suites span Python (pytest) and Rust. Code and results remain in the private repository.
+| V_01 | README contract matches the showcase playbook | PASS |
+| V_02 | Proof anchors resolve inside this repo | PASS |
+| V_03 | Public status packet reflects the 2026-04-19 pause state | PASS |
+| V_04 | Public packet excludes private paths, secrets, and runtime access | PASS |
 
 ## Proof Anchors
 
 | Path | State |
 |------|-------|
-| `output/ship/phase13.2-ship-truth-ascent/` | VERIFIED |
-| `output/ship/phase4-vessel-closure-current-canonical/` | VERIFIED |
-| `output/ship/phase12.1-lawful-lead-authority-pack/` | VERIFIED |
-| `output/ship/phase13.2-science-engineering-authority-pack/` | VERIFIED |
-| `docs/VPC-2.0-spec.md` | VERIFIED |
+| `proofs/manifests/CURRENT_PUBLIC_STATUS_PACKET.md` | VERIFIED |
+| `proofs/artifacts/2026-04-19-showcase-refresh/platform_snapshot.json` | VERIFIED |
+| `proofs/artifacts/2026-04-19-showcase-refresh/pause_and_resume_boundary.md` | VERIFIED |
+| `validation/results/public_surface_status.json` | VERIFIED |
 
 ## Repo Shape
 
-**What is in this public repository:**
-- Platform architecture and dimension descriptions
-- Cross-cutting service definitions
-- MIT ship spiral mapping
-- Commercial model explanation
-- Development status and phase tracking
-- Public rights notice and disclaimers
-
-**What is not in this public repository:**
-- Source code (Python, Rust, or any other language)
-- Solver integrations or internal toolchain wrappers
-- Model weights, training data, or prompts
-- Credentials, API endpoints, or runtime access
-- OEM or vendor-proprietary data
-- Deployable software artifacts
-
-## Ecosystem
-
-- [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098) — Lead vessel concept showcase
-- [ZPE-IMC](https://github.com/Zer0pa/ZPE-IMC) — Multi-modal integration codec (platform core)
-- [ZPE-Bio](https://github.com/Zer0pa/ZPE-Bio) — Biosignal domain codec
-- [ZPE-FT](https://github.com/Zer0pa/ZPE-FT) — Financial time-series codec
-- [ZPE-Geo](https://github.com/Zer0pa/ZPE-Geo) — Geospatial codec
-- [ZPE-Robotics](https://github.com/Zer0pa/ZPE-Robotics) — Robotics telemetry codec
-- [ZPE-Neuro](https://github.com/Zer0pa/ZPE-Neuro) — Neuroscience codec
-- [ZPE-IoT](https://github.com/Zer0pa/ZPE-IoT) — IoT sensor codec
-- [ZPE-Ink](https://github.com/Zer0pa/ZPE-Ink) — Structured document codec
-- [ZPE-Mocap](https://github.com/Zer0pa/ZPE-Mocap) — Motion capture codec
-- [ZPE-Prosody](https://github.com/Zer0pa/ZPE-Prosody) — Speech prosody codec
-- [ZPE-XR](https://github.com/Zer0pa/ZPE-XR) — Extended reality codec
+| Field | Value |
+|-------|-------|
+| Proof Anchors | 4 |
+| Public Packet | 2026-04-19 showcase refresh |
+| Sibling Surface | Zero-Class-Vessel-Hull-20098 |
+| Authority Source | proofs/manifests/CURRENT_PUBLIC_STATUS_PACKET.md |
 
 ## Quick Start
 
 ```bash
-# Showcase repository — no code to run
 git clone https://github.com/Zer0pa/ZeroShip.git
-# Architecture: SYSTEM-ARCHITECTURE.md
-# Dimensions: PLATFORM-DIMENSIONS.md
-# Services: CROSS-CUTTING-SERVICES.md
-# Vessel: https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098
+cd ZeroShip
+sed -n '1,200p' README.md
+sed -n '1,240p' DEVELOPMENT-STATUS.md
+find proofs -maxdepth 3 -type f | sort
 ```
-
----
-
-> This repository is a public architecture and concept surface for ZeroShip. It does not publish ZeroShip platform code, internal toolchains, training assets, or third-party partner data. Except for limited GitHub service-level permissions associated with public repository visibility, no licence is implied by public posting, and all rights are reserved unless expressly granted in writing.

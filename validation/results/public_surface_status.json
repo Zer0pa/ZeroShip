@@ -1,0 +1,27 @@
+{
+  "repo": "ZeroShip",
+  "checked_at": "2026-04-19",
+  "confidence_percent": 84,
+  "checks": [
+    {
+      "code": "V_01",
+      "name": "README contract matches showcase playbook",
+      "verdict": "PASS"
+    },
+    {
+      "code": "V_02",
+      "name": "Proof anchors resolve inside repo",
+      "verdict": "PASS"
+    },
+    {
+      "code": "V_03",
+      "name": "Public status packet reflects pause state",
+      "verdict": "PASS"
+    },
+    {
+      "code": "V_04",
+      "name": "Private paths excluded from public packet",
+      "verdict": "PASS"
+    }
+  ]
+}

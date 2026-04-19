@@ -1,0 +1,23 @@
+{
+  "repo": "ZeroShip",
+  "updated": "2026-04-19",
+  "public_position": "controlled_pause_and_convergence",
+  "ship_truth_changed_here": false,
+  "relaunch_authorized_here": false,
+  "metrics": {
+    "dimensions": 15,
+    "cross_cutting_services": 6,
+    "candidate_cases": 7,
+    "runtime_roles": 3
+  },
+  "platform_chain": [
+    "SourceEstate",
+    "RuntimeAdmission",
+    "CaseState",
+    "ExecutionStateMachine",
+    "Observability",
+    "FastLaneAdmission",
+    "ResumeController"
+  ],
+  "next_lawful_move": "finish convergence gates and authorize one bounded restart path"
+}

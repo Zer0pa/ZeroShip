@@ -1,56 +1,45 @@
 # Development Status
 
-> Last updated: 2026-04-14
+| Field | Value |
+|-------|-------|
+| Last Updated | 2026-04-19 |
+| Current Position | Controlled pause and convergence |
+| Ship Truth Changed Here | No |
+| Relaunch Authorized Here | No |
+| Sibling Vessel Surface | Zero-Class-Vessel-Hull-20098 |
 
-## Current Phase
+## What Changed This Week
 
-**Phase 13.2.1.3.7 — Dual-Lane Unification**
+- The public platform surface was realigned to the controlled pause state
+- The platform evidence tree now lives in repo-local `proofs/` and `validation/` roots
+- The pause boundary now says plainly that premium runtime relaunch is blocked until the next lawful route is authorized
+- The public architecture story now matches the private convergence crystal instead of the older in-progress narrative
 
-Phase 13.2 is complete. Phase 14 is deferred pending resolution of blocked items.
+## What Did Not Change
 
-## Recent Milestones
+- Ship truth did not move here
+- The vessel baseline remains governed by the ship-facing corridor, not by platform work
+- Phase 14 remains deferred
+- Expensive runtime spend remains blocked behind the current pause doctrine
 
-| Date | Milestone |
-|------|-----------|
-| 2026-04-12 | Phase 13.2 complete — structural, powering, and stability lanes unified |
-| 2026-04 | Hull 20098 lawful lead confirmed — 147.60 m, 10,938 t, 23 kn |
-| 2026-04 | Service power band closed — 13.73–16.05 MW |
-| 2026-04 | GM preliminary plausibility confirmed at 3.176 m — 4-case stability matrix complete |
-| 2026-03 | Dispatch system V5/V6 fully operational across 11 ZPE repos |
-
-## Blocked Items
-
-| Item | Blocker | Impact |
-|------|---------|--------|
-| Motion prediction | `openfoam_v2312_runtime_surface` not yet bound | Cannot produce motion transfer functions |
-| Seakeeping | Blocked pending motion truth | Cannot close comfort or operability assessment |
-
-## Platform Metrics
+## Current Public Metrics
 
 | Metric | Value |
 |--------|-------|
-| Source modules | 94+ (Python + Rust) |
-| Output phase directories | ~110 |
-| Platform dimensions | 15 (D0–D14) |
+| Dimensions | 15 |
 | Cross-cutting services | 6 |
-| Vessel outputs | 5 |
+| Candidate cases in active public registry | 7 |
+| Runtime roles surfaced publicly | 3 |
 
-## What Is Live
+## Current Public Boundary
 
-- Hull definition and parametric geometry (D1)
-- Intact stability and weight accounting (D3, D4)
-- Resistance and bare-hull powering (D10)
-- Plant sizing and service power band (D6)
-- Structural rule-check and scantling (D11)
-- Synthesis lap and proof-of-residual tracking (D14)
+- The public platform chain is `SourceEstate -> RuntimeAdmission -> CaseState -> ExecutionStateMachine -> Observability -> FastLaneAdmission -> ResumeController`
+- ZeroShip is the public control-plane and evidence surface, not the ship-claim surface
+- Code, weights, prompts, runtime credentials, and partner data stay private
+- The next lawful move is source-estate and runtime convergence, then one bounded restart path
 
-## What Is Not Yet Live
+## Next Lawful Move
 
-- Motion and seakeeping (D13) — blocked
-- Full electrical single-line diagram (D7) — in progress
-- Arrangement optimisation (D9) — framework exists, not iterated
-- Augmentation promotion (D12) — partial
-
----
-
-*This file is manually updated. It does not auto-sync with the private repository.*
+Finish the pause-and-convergence gates, keep the public packet current, and
+only reopen an expensive runtime lane after the private repo authorizes one
+bounded route.
