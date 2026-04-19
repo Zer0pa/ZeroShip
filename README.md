@@ -48,7 +48,7 @@ governed vessel lane and is surfaced separately in the sibling vessel repo.
 | Field | Value |
 |-------|-------|
 | Verdict | PARTIAL |
-| Commit SHA | aec2256 |
+| Commit SHA | 360cb16fb1b5 |
 | Confidence | 84% |
 | Source | proofs/manifests/CURRENT_PUBLIC_STATUS_PACKET.md |
 
