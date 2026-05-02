@@ -10,6 +10,14 @@ what state it is in, and what boundary rules govern the next lawful move.
 
 `SourceEstate -> RuntimeAdmission -> CaseState -> ExecutionStateMachine -> Observability -> FastLaneAdmission -> ResumeController`
 
+## Truth Surfaces
+
+`ShipTruth -> PlatformTruth -> RuntimeTruth -> SalvageTruth -> NextRunAuthority`
+
+Ship truth changes only through governed vessel evidence. Platform truth can
+make the next lawful route more honest, but it does not promote vessel claims
+by itself.
+
 ## Public Runtime Roles
 
 - `Mac control plane`: planning, state lock, packet assembly, review
@@ -27,5 +35,6 @@ what state it is in, and what boundary rules govern the next lawful move.
 ## Current Position
 
 The public platform story is currently a controlled pause and convergence
-surface. The lawful task is to keep the estate, runtime rules, and public
-status coherent until one bounded restart path is admitted.
+surface under the `Ship Mechanics` profile. The lawful task is to keep the
+estate, runtime rules, readiness boundary, and public status coherent until one
+bounded restart path is admitted.

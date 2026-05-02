@@ -1,26 +1,27 @@
 {
   "repo": "ZeroShip",
-  "checked_at": "2026-04-19",
-  "confidence_percent": 84,
+  "checked_at": "2026-05-03",
+  "profile": "ship_platform",
+  "zone_02": "Ship Mechanics",
   "checks": [
     {
       "code": "V_01",
-      "name": "README contract matches showcase playbook",
+      "name": "README uses the Ship Mechanics first-ten-zone spine",
       "verdict": "PASS"
     },
     {
       "code": "V_02",
-      "name": "Proof anchors resolve inside repo",
+      "name": "Displayed proof anchors resolve inside repo",
       "verdict": "PASS"
     },
     {
       "code": "V_03",
-      "name": "Public status packet reflects pause state",
+      "name": "Public status packet preserves controlled pause and convergence without ship-truth promotion",
       "verdict": "PASS"
     },
     {
       "code": "V_04",
-      "name": "Private paths excluded from public packet",
+      "name": "Public packet excludes private paths, secrets, runtime access, CAD, raw CFD, and partner data",
       "verdict": "PASS"
     }
   ]

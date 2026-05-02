@@ -1,0 +1,43 @@
+{
+  "repo": "ZeroShip",
+  "updated": "2026-05-03",
+  "profile": "ship_platform",
+  "zone_02": "Ship Mechanics",
+  "public_position": "controlled_pause_and_convergence",
+  "ship_truth_changed_here": false,
+  "relaunch_authorized_here": false,
+  "metrics": {
+    "platform_dimensions": 15,
+    "cross_cutting_services": 6,
+    "public_candidate_cases": 7,
+    "runtime_roles": 3
+  },
+  "platform_chain": [
+    "SourceEstate",
+    "RuntimeAdmission",
+    "CaseState",
+    "ExecutionStateMachine",
+    "Observability",
+    "FastLaneAdmission",
+    "ResumeController"
+  ],
+  "truth_surfaces": [
+    "ShipTruth",
+    "PlatformTruth",
+    "RuntimeTruth",
+    "SalvageTruth",
+    "NextRunAuthority"
+  ],
+  "public_boundary": {
+    "private_code_published": false,
+    "runtime_access_published": false,
+    "cad_or_raw_cfd_published": false,
+    "partner_data_published": false,
+    "ship_truth_promoted_here": false
+  },
+  "source_basis": [
+    "2026-04-19 public packet",
+    "2026-04-25 internal working-state review"
+  ],
+  "readiness_note": "A refreshed current packet must reconcile internal readiness surfaces before claiming a new public current state."
+}
