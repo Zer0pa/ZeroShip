@@ -1,0 +1,18 @@
+{
+  "title": "ZeroShip",
+  "description": "Public architecture and evidence surface for the ZeroShip ship-design platform. Architecture, status, evidence, and boundaries; no private source code, CAD, CFD, or runtime access.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Zer0pa"
+    }
+  ],
+  "keywords": [
+    "ship-design",
+    "zer0pa",
+    "ship-platform",
+    "authority-gated"
+  ],
+  "access_right": "open",
+  "notes": "License: LicenseRef-Zer0pa-SAL-6.2 (custom, rights-reserved). Public materials only; private implementation excluded."
+}
