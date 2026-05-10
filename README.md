@@ -6,6 +6,18 @@ ZeroShip is the public ship-design platform surface for Zer0paShip: architecture
 
 This repo shows how the design machine is structured and where the current public boundary sits. Ship truth promotion still happens only through the governed private vessel lane and is surfaced separately in the sibling Hull 20098 repo.
 
+## Information Architecture
+
+This repo is one of three distinct surfaces in the Zer0paShip program. Promotion does not flow between them implicitly; each surface owns a bounded scope.
+
+| Surface | Owns | Does not promote |
+|---|---|---|
+| `Zer0pa/ZeroShip` (this repo) | Public ship-design platform: 15 dimensions, 6 cross-cutting services, 7 public candidate cases, V_01..V_04 audit. | Vessel authority. Class approval. Yard package. Manufacturing release. 23 kn commercial closure. |
+| `Zer0pa/Zero-Class-Vessel-Hull-20098` (public sibling) | Public vessel authority packet for Hull 20098: 14.36 MW @ 23 kn baseline, 10,955 t loaded displacement, 14.35 MW hydro anchor, V_01..V_04 PASS. | Class approval. Yard package. Manufacturing release. Lawful one-unit-out 23 kn commercial closure. |
+| Private working repo (authority-gated) | Implementation, runtime, CAD, raw CFD, OEM/vendor/partner data, premium relaunch authorization. | Anything in the private repo remains gated outside both public surfaces and is not promoted from platform work alone. |
+
+Platform work in this repo can enable ship work, but does not promote ship truth by itself. Ship truth promotion happens only through the governed private working repo and is surfaced separately in the Hull 20098 sibling.
+
 ## Ship Mechanics
 
 | Field | Value |
