@@ -3,8 +3,7 @@ title: ZeroShip
 message: Please cite this public showcase surface using the metadata below.
 type: software
 authors:
-  - family-names: Pillay
-    given-names: Priniven
+  - name: Zer0pa
 repository-code: https://github.com/Zer0pa/ZeroShip
 license: LicenseRef-Zer0pa-SAL-6.2
 abstract: Public architecture and evidence surface for the ZeroShip ship-design platform.
