@@ -64,7 +64,7 @@ find proofs -maxdepth 3 -type f | sort
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<div><b>03 · VALUE</b></div>
+<div><b>03 · VALUE OF MARKET</b></div>
       <div>$79.4<span>B</span></div>
       <div>Green shipping '31 forecast; an integrated five-discipline design workspace beneath it remains largely unpriced.</div>
 </td>
