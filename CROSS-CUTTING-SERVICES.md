@@ -1,12 +1,5 @@
-# Cross-Cutting Services
+# Moved: Cross-Cutting Services
 
-Canonical ZeroShip service notes now live under [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+This cross-cutting services note moved to `docs/platform/CROSS-CUTTING-SERVICES.md`.
 
-The six public service groups are:
-
-- source-estate control
-- runtime admission
-- case-state integrity
-- execution-state control
-- observability
-- fast-lane admission and resume control
+This compatibility stub preserves the old public path only. It does not add implementation source, vessel-status, OEM, partner-data, or package claims.
