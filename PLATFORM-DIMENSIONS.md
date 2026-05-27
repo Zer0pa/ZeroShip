@@ -1,7 +1,5 @@
-# Platform Dimensions
+# Moved: Platform Dimensions
 
-Canonical dimension notes now live under [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+This platform dimensions note moved to `docs/platform/PLATFORM-DIMENSIONS.md`.
 
-ZeroShip publicly tracks fifteen dimensions across the ship-design workflow.
-The current public packet uses those dimensions as scope markers, not as a
-claim that every dimension is fully closed for one vessel at one time.
+This compatibility stub preserves the old public path only. It does not add implementation source, vessel-status, OEM, partner-data, or package claims.

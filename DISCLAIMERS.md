@@ -1,6 +1,5 @@
-# Public Boundary Notes
+# Moved: Disclaimers
 
-This repo is a public evidence surface. It does not publish private ZeroShip
-implementation code, runtime access, partner data, or third-party tool rights.
+This disclaimers note moved to `docs/legal/DISCLAIMERS.md`.
 
-For the current legal boundary, read [docs/LEGAL_BOUNDARIES.md](docs/LEGAL_BOUNDARIES.md).
+This compatibility stub preserves the old public path only. It does not add implementation source, vessel-status, OEM, partner-data, or package claims.

@@ -1,4 +1,5 @@
-# System Architecture
+# Moved: System Architecture
 
-The canonical public architecture note now lives at
-[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+This system architecture note moved to `docs/platform/SYSTEM-ARCHITECTURE.md`.
+
+This compatibility stub preserves the old public path only. It does not add implementation source, vessel-status, OEM, partner-data, or package claims.
