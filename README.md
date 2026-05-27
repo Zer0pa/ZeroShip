@@ -2,6 +2,13 @@
 
 ## Install / Developer Commands
 
+<!-- INSTALL-DX:START -->
+#### Package Boundary
+
+No public implementation package, PyPI distribution, or CLI is claimed for this repository.
+Use the repo-local source, dossier, or proof commands below; do not substitute an unrelated PyPI package.
+<!-- INSTALL-DX:END -->
+
 #### Quick Start
 
 ```bash
