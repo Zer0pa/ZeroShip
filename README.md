@@ -1,23 +1,13 @@
 # ZeroShip
 
-## Install / Developer Commands
-
-<!-- INSTALL-DX:START -->
-#### Package Boundary
+## Package Boundary
 
 No public implementation package, PyPI distribution, or CLI is claimed for this repository.
 Use the repo-local source, dossier, or proof commands below; do not substitute an unrelated PyPI package.
-<!-- INSTALL-DX:END -->
 
-#### Quick Start
+For full install, smoke, source, and developer commands, [click here](#install-developer-commands-detailed).
 
-```bash
-git clone https://github.com/Zer0pa/ZeroShip.git
-cd ZeroShip
-sed -n '1,220p' README.md
-sed -n '1,240p' DEVELOPMENT-STATUS.md
-find proofs -maxdepth 3 -type f | sort
-```
+---
 
 <table width="100%">
 <tr>
@@ -289,3 +279,26 @@ find proofs -maxdepth 3 -type f | sort
 </td>
 </tr>
 </table>
+
+---
+
+<a id="install-developer-commands-detailed"></a>
+
+## Install / Developer Commands Detailed
+
+<!-- INSTALL-DX:START -->
+#### Package Boundary
+
+No public implementation package, PyPI distribution, or CLI is claimed for this repository.
+Use the repo-local source, dossier, or proof commands below; do not substitute an unrelated PyPI package.
+<!-- INSTALL-DX:END -->
+
+#### Quick Start
+
+```bash
+git clone https://github.com/Zer0pa/ZeroShip.git
+cd ZeroShip
+sed -n '1,220p' README.md
+sed -n '1,240p' DEVELOPMENT-STATUS.md
+find proofs -maxdepth 3 -type f | sort
+```
