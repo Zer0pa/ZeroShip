@@ -14,6 +14,7 @@ For full install, smoke, source, and developer commands, [click here](#install-d
 <td width="100%" valign="top">
 <div><span><b>00 · ZEROSHIP</b> · SHIP DESIGN SPIRAL</span> <span>RESEARCH-READY · V_01–V_04 PASS</span></div>
       <h1>MIT Ship Spiral <span>Design Engine</span></h1>
+      <p><strong>Live experiment. Not a release. Ambition headlined. Claims bounded.</strong></p>
       <p>Five-discipline design spiral &middot; <em>ZeroShip</em> &middot; Hull 20098 proving article &middot; github.com/Zer0pa/ZeroShip</p>
       <p>Global shipping carries <strong>roughly 80% of world trade</strong> and still burns the dirtiest fuel afloat. ZeroShip is the in-silico form of the MIT design spiral &mdash; hydrodynamics, propulsion, structure, arrangement, stability &mdash; running on one vessel concept until every discipline agrees on the same ship. Hull 20098, a <strong>10,955-tonne hydrogen-electric freighter</strong> at <strong>14.36 MW</strong> installed power and <strong>23 knots</strong> service speed, is the first public proving article. The page shows what the spiral converged on, and what it has not yet been asked to answer.</p>
 </td>
